@@ -6,14 +6,14 @@ const Header = () => {
   return (
     <header className={`${styles.header} container fluid` }>
         <div className={styles.headerWrapper}>
-            <Link href='/' className={styles.logo}>
+            <Link href='https://next-movie-site.vercel.app/' className={styles.logo}>
                 <FaPlayCircle/>
                 NETFILMS
             </Link>
             <nav className={styles.navigationMenu}>
-                <Link href='/'>Movies</Link>
-                <Link href='/'>Series</Link>
-                <Link href='/'>Kids</Link>
+                <Link href='https://next-movie-site.vercel.app/'>Movies</Link>
+                <Link href='https://next-movie-site.vercel.app/'>Series</Link>
+                <Link href='https://next-movie-site.vercel.app/'>Kids</Link>
             </nav>
         </div>
     </header>
