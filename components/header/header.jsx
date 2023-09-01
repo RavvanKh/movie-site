@@ -11,9 +11,9 @@ const Header = () => {
                 NETFILMS
             </Link>
             <nav className={styles.navigationMenu}>
-                <Link href='https://next-movie-site.vercel.app/'>Movies</Link>
-                <Link href='https://next-movie-site.vercel.app/'>Series</Link>
-                <Link href='https://next-movie-site.vercel.app/'>Kids</Link>
+                <Link href='/'>Movies</Link>
+                <Link href='/'>Series</Link>
+                <Link href='/'>Kids</Link>
             </nav>
         </div>
     </header>
